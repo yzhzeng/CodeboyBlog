@@ -48,10 +48,10 @@
 <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/codeboy.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/CodeboyBlog/js/codeboy.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- TODO: only load in tag.html -->
-<script src="/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
+<script src="/CodeboyBlog/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">
     $.fn.tagcloud.defaults = {
         //size: {start: 1, end: 1, unit: 'em'},
@@ -76,11 +76,11 @@
 
 <!-- Highlight.js -->
 <script>
-    async("//cdn.bootcss.com/highlight.js/9.4.0/highlight.min.js",function(){
+    async("https://cdn.bootcss.com/highlight.js/9.4.0/highlight.min.js",function(){
         hljs.initHighlightingOnLoad();
     })
 </script>
-<link href="//cdn.bootcss.com/highlight.js/9.4.0/styles/github.min.css" rel="stylesheet">
+<link href="https://cdn.bootcss.com/highlight.js/9.4.0/styles/github.min.css" rel="stylesheet">
 
 <div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
       opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
