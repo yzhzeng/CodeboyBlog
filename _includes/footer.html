@@ -63,7 +63,7 @@
 </script>
 
 <!-- async load function -->
-<!--<script>
+<script>
     function async(u, c) {
       var d = document, t = 'script',
           o = d.createElement(t),
@@ -72,14 +72,14 @@
       if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
       s.parentNode.insertBefore(o, s);
     }
-</script>-->
+</script>
 
 <!-- Highlight.js -->
-<!--<script>
+<script>
     async("https://cdn.bootcss.com/highlight.js/9.4.0/highlight.min.js",function(){
         hljs.initHighlightingOnLoad();
     })
-</script>-->
+</script>
 <link href="https://cdn.bootcss.com/highlight.js/9.4.0/styles/github.min.css" rel="stylesheet">
 
 <div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
@@ -97,8 +97,8 @@
 
 <link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
 
-<!--<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>-->
-<!--<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>-->
+<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
 
 <script>
 $(document).ready(function(){
