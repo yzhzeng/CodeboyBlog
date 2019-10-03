@@ -42,16 +42,16 @@
 </footer>
 
 <!-- jQuery -->
-<script src="http://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!--<script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/codeboy.min.js " | prepend: site.baseurl }}"></script>
+<!--<script src="{{ "/js/codeboy.min.js " | prepend: site.baseurl }}"></script>-->
 
 <!-- TODO: only load in tag.html -->
-<script src="/CodeboyBlog/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
 <script language="javascript">
     $.fn.tagcloud.defaults = {
         //size: {start: 1, end: 1, unit: 'em'},
@@ -63,7 +63,7 @@
 </script>
 
 <!-- async load function -->
-<script>
+<!--<script>
     function async(u, c) {
       var d = document, t = 'script',
           o = d.createElement(t),
@@ -72,14 +72,14 @@
       if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
       s.parentNode.insertBefore(o, s);
     }
-</script>
+</script>-->
 
 <!-- Highlight.js -->
-<script>
+<!--<script>
     async("https://cdn.bootcss.com/highlight.js/9.4.0/highlight.min.js",function(){
         hljs.initHighlightingOnLoad();
     })
-</script>
+</script>-->
 <link href="https://cdn.bootcss.com/highlight.js/9.4.0/styles/github.min.css" rel="stylesheet">
 
 <div class="cb-search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
@@ -97,8 +97,8 @@
 
 <link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
 
-<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
+<!--<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>-->
+<!--<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>-->
 
 <script>
 $(document).ready(function(){
@@ -115,5 +115,5 @@ $(document).ready(function(){
 </script>
 
 <div style="display:none;">
-  <script src="//s19.cnzz.com/z_stat.php?id=1000478693&web_id=1000478693" language="JavaScript"></script>
+  <!--<script src="//s19.cnzz.com/z_stat.php?id=1000478693&web_id=1000478693" language="JavaScript"></script>-->
 </div>
